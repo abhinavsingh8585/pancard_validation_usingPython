@@ -1,6 +1,6 @@
 
 
-# Pan card fraud detection- DataFlair
+#pan card validation
 import os
 import cv2
 import numpy as np
@@ -136,5 +136,5 @@ print(CATEGORIES[np.argmax(pred1)], CATEGORIES[np.argmax(pred2)])
 
 
 # Export the model
-model.save("pan-card-fraud-detection-DataFlair.h5")
+model.save("validation.h5")
 
